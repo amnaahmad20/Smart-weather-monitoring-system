@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Monitoring System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .tech-logos {
+            display: flex; /* Align items in a row */
+            justify-content: center; /* Center items horizontally */
+            gap: 30px; /* Space between each logo */
+        }
+
+        .logo {
+            text-align: left;
+
+        }
+        .logo img {
+            width: 30 px;
+            height: 30 px;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            margin-bottom: 15px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .section h2 {
+            color: #333;
+            
+        }
+        .section img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            text-align: left;
+            img-align: center;
+        }
+        .team-member {
+            margin: 15px;
+            display: inline-block;
+            text-align: center;
+        }
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .full-screen-image {
+            height: 100vh; /* Full viewport height */
+            width: 100vw; /* Full viewport width */
+            background-image: url('https://ecofriend.org/wp-content/uploads/2022/11/Pros-and-Cons-of-Weather-Monitoring.jpg');
+            background-size: cover; /* Cover the entire div */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Weather Monitoring System</h1>
+    </div>
+    <div class="full-screen-image">
+        <!-- image should be on whole screen -->
+    </div>
+
+    <div class="container">
+        <!-- Project Details -->
+        <div class="section">
+            <h2>Project Details</h2>
+            <p>"Our Weather Monitoring System is an advanced, multi-sensor setup designed to provide real-time environmental data. Equipped with a temperature sensor, gas sensor, ultrasonic sensor, and a potentiometer, it accurately measures ambient conditions including temperature, air quality, rainfall, and wind speed. The collected data is visualized on the ThingSpeak dashboard, offering an intuitive and detailed view of weather patterns. This system is an essential tool for environmental monitoring, catering to both enthusiasts and professional meteorologists."</p>
+        </div>
+
+        <!-- Technologies Used -->
+        <div class="section">
+            <h2>Technologies Used</h2>
+            <div class="tech-logos">
+                <!-- Tinkercad Logo and Link -->
+                <div class="logo">
+                    <a href="https://www.tinkercad.com">
+                        <img src="/Users/apple/Desktop/iot project /logo-tinkercad-256.png" alt="Tinkercad">
+                    </a>
+                    <p><a href="https://www.tinkercad.com">Tinkercad</a></p>
+                </div>
+        
+                <!-- ThingSpeak Logo and Link -->
+                <div class="logo">
+                    <a href="https://thingspeak.com">
+                        <img src="/Users/apple/Desktop/iot project /thingspeak.png">
+                    </a>
+                    <p><a href="https://thingspeak.com">ThingSpeak</a></p>
+                </div>
+        
+                <!-- Google Colab Logo and Link -->
+                <div class="logo">
+                    <a href="https://colab.research.google.com">
+                        <img src="/Users/apple/Desktop/iot project /colab.png" alt="Google Colab">
+                    </a>
+                    <p><a href="https://colab.research.google.com">Google Colab</a></p>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Simulation -->
+        <div class="section">
+            <h2>Simulation</h2>
+            <img src="/Users/apple/Desktop/iot project /tinker image.png" >
+            <p><a href="https://www.tinkercad.com/things/63uT0urji4L-smart-weather-monitoring-system">Link to Tinkercad Simulation</a></p>
+        </div>
+
+        <!-- Statistics (Graphs) -->
+        <div class="section">
+            <h2>Statistics</h2>
+            <!-- Include your iframe graphs here as previously -->
+            <div class="container">
+                <!-- Temperature Graph -->
+                <div class="graph">
+                    <h2>Temperature</h2>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2392076/charts/1?bgcolor=%23ffffff&color=%23d62020&results=60&title=Temperature&xaxis=time&yaxis=temperature"></iframe>
+                </div>
+        
+                <!-- Gas Sensor Graph -->
+                <div class="graph">
+                    <h2>Gas Sensor</h2>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2392076/charts/2?bgcolor=%23ffffff&color=%232b4f32&results=60&title=Gas+sensor&xaxis=time&yaxis=Gas"></iframe>
+                </div>
+        
+                <!-- Rainfall Graph -->
+                <div class="graph">
+                    <h2>Rainfall</h2>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2392076/charts/3?bgcolor=%23ffffff&color=%233d87cc&results=60&title=rainfall&xaxis=time"></iframe>
+                </div>
+        
+                <!-- Wind Speed Graph -->
+                <div class="graph">
+                    <h2>Wind Speed</h2>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2392076/charts/4?bgcolor=%23ffffff&color=%23bf6ed4&results=60&title=wind+speed"></iframe>
+                </div>
+                 <!-- Matlab visualizations -->
+                 <div class="graph">
+                    <h2>real time temperature </h2>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2392076/widgets/778660"></iframe>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- About Us -->
+        <div class="section">
+            <h2>Team Members</h2>
+            <!-- Replace with actual images and names of your team members -->
+            <div class="team-member">
+                <img src="/Users/apple/Desktop/iot project /amna.jpeg" alt="Member Name">
+                <p>Amna Ahmad</p> 
+            </div>
+            <!-- Repeat for each team member -->
+            <div class="team-member">
+                <img src="/Users/apple/Desktop/iot project /amna.jpeg" alt="Member Name">
+                <p>Lamees</p> 
+            </div>
+            <div class="team-member">
+                <img src="/Users/apple/Desktop/iot project /ayesha.jpeg" alt="Member Name">
+                <p>Ayesha Naime</p> 
+            </div>
+            <div class="team-member">
+                <img src="/Users/apple/Desktop/iot project /amna.jpeg" alt="Member Name">
+                <p>Fatima Hussain</p> 
+            </div>
+            <div class="team-member">
+                <img src="/Users/apple/Desktop/iot project /amna.jpeg" alt="Member Name">
+                <p>Muhammad Abdullah Abbasi</p> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
