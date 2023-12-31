@@ -1,4 +1,4 @@
-# My Weather Monitoring System Project
+#  Weather Monitoring System Project
 
 This repository contains the code and documentation for my Weather Monitoring System project, which utilizes ThingSpeak for data visualization and Tinkercad for circuit simulation.
 
