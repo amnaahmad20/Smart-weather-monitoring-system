@@ -1,0 +1,3 @@
+[submodule "send-recieve-data-from-thingspeak"]
+	path = send-recieve-data-from-thingspeak
+	url = https://github.com/amnaahmad20/send-recieve-data-from-thingspeak
