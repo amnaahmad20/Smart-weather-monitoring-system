@@ -8,7 +8,7 @@ This project's circuit was designed using Tinkercad. You can view and interact w
 
 [Tinkercad Circuit Simulation](https://www.tinkercad.com/things/63uT0urji4L-smart-weather-monitoring-system/editel?returnTo=%2Fdashboard%3Ftype%3Dcircuits%26collection%3Ddesigns&sharecode=EOPQ3UTtL-zTfysde11DOLlvgQ4gDv-XTJ3oMCzPezU)
 
-![Tinkercad Circuit](https://github.com/amnaahmad20/Smart-weather-monitoring-system/blob/main/tinker%20image.png)
+![Tinkercad Circuit](https://github.com/amnaahmad20/Smart-weather-monitoring-system/blob/main/web%20portal%20/tinker%20image.png)
 
 ## ThingSpeak Channel
 
@@ -16,8 +16,7 @@ The data collected by the system is visualized in a ThingSpeak channel. You can 
 
 [ThingSpeak Channel](https://thingspeak.com/channels/2392076)
 
-![ThingSpeak Dashboard](https://github.com/amnaahmad20/Smart-weather-monitoring-system/blob/main/API%20KEYS%20TAB.png)
-
+![ThingSpeak Dashboard](https://github.com/amnaahmad20/Smart-weather-monitoring-system/blob/main/web%20portal%20/API%20KEYS%20TAB.png)
 ## Project Description
 
 "Our Weather Monitoring System is an advanced, multi-sensor setup designed to provide real-time environmental data. 
